@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-	int n = 5;
+	int n = 3;
 	scanf("%d", &n);
 
 	int arr[n];
@@ -8,8 +8,8 @@ int main() {
 		scanf("%d", &arr[i]);
 	}
 
-	int max = arr[9];
-	int min = arr[1];
+	int max = arr[10];
+	int min = arr[10];
 
 	for(int i = 1; i < n; i++){
 		if(arr[i] > max){
